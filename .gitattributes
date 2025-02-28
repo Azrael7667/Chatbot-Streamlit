@@ -1,0 +1,6 @@
+models/**/*.safetensors filter=lfs diff=lfs merge=lfs -text
+venv/Lib/site-packages/torch/lib/*.dll filter=lfs diff=lfs merge=lfs -text
+venv/Lib/site-packages/torch/lib/*.lib filter=lfs diff=lfs merge=lfs -text
+models/models--sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/snapshots/8d6b950845285729817bf8e1af1861502c2fed0c/model.safetensors filter=lfs diff=lfs merge=lfs -text
+venv/Lib/site-packages/torch/lib/dnnl.lib filter=lfs diff=lfs merge=lfs -text
+venv/Lib/site-packages/torch/lib/torch_cpu.dll filter=lfs diff=lfs merge=lfs -text
